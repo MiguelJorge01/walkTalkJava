@@ -1,4 +1,6 @@
-public class William extends GameCharacter {
+package entities;
+
+public class William extends Character {
 
     public William(String name, String region, String race, int age) {
         super(name, region, race, age);

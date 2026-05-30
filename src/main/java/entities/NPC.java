@@ -1,4 +1,6 @@
-public class NPC extends GameCharacter {
+package entities;
+
+public class NPC extends Character {
     public enum Mood {
         KIND, ANGRY, SAD, CURIOUS
     }

@@ -1,10 +1,12 @@
-public class GameCharacter {
+package entities;
+
+public class Character {
     protected String name;
     protected String region;
     protected String race;
     protected int age;
 
-    public GameCharacter(String name, String region, String race, int age) {
+    public Character(String name, String region, String race, int age) {
         this.name = name;
         this.region = region;
         this.race = race;
