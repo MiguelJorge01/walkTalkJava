@@ -3,7 +3,8 @@ import entities.GameCharacters;
 import java.util.Scanner;
 
 public class GameFlow {
-    Scene actualScene;
+
+    Scene actualScene = GameScene.scene2;
 
     public void displayScene() {
         System.out.println(actualScene.description);
@@ -23,6 +24,5 @@ public class GameFlow {
     }
 
     public static void goToScene(int sceneValue) {
-
     }
 }
